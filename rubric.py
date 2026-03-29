@@ -1,6 +1,7 @@
 import re
 
 # Author: Isaac D. Hoyos
+# Date: March 29, 2026
 def format_rubric(file_path):
     # Notify the user that processing has started.
     print(f"Processing the file '{file_path}' with the unformatted list...")
@@ -21,7 +22,6 @@ def format_rubric(file_path):
             if i + 2 < len(lines):
                 line1 = lines[i + 1]
                 line2 = lines[i + 2]
-
                 formatted_lines.append(title)
                 formatted_lines.append(f"- {line1}")
                 formatted_lines.append(f"- {line2}")
