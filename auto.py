@@ -5,6 +5,8 @@ import keyboard
 import tkinter as tk
 import traceback
 
+# Author: Isaac D. Hoyos
+# Date: March 29, 2026
 pydirectinput.PAUSE = 0
 keys = [
     'a','b','c','d','e','f','g','h','i','j','k','l','m',
@@ -54,7 +56,6 @@ def handle_toggle_key(event):
         state = running
     _last_toggle_time = now
     print("Running" if state else "Stopped")
-
 keyboard.on_press_key(toggle_key, handle_toggle_key)
 
 def exit_on_esc():
@@ -68,7 +69,6 @@ def exit_on_esc():
         root.quit()
     except:
         pass
-
 if __name__ == "__main__":
     root = tk.Tk()
     root.withdraw()
