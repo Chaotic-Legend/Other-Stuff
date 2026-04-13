@@ -39,21 +39,23 @@ template = """🎮 Limited Run Games Series {series} {variant} Trading Card #{ca
 ✨ Add a rare gem to your collection with this Limited Run Games Series {series} {variant} Trading Card #{card_num} from the {name} Collectible Card Set! A must-have for fans of {name} and dedicated Limited Run Games collectors.
 
 📌 Item Details:
-• ✅ Authentic Limited Run Games Series {series} Trading Card.
-• 🌟 {variant} Variant – Highly sought after by collectors.
-• 🃏 Card #{card_num} – {name} Set
-• 📊 Condition: Near Mint / Excellent
-• 🛡️ Stored in a protective hard and soft sleeve.
-• 🚭 Smoke-free & pet-free environment.
+✅ Authentic Limited Run Games Series {series} Trading Card.
+🌟 {variant} Variant – Highly sought after by collectors.
+🃏 Card #{card_num} – {name} Set
+📊 Condition: Near Mint / Excellent
+🛡️ Stored in a protective hard and soft sleeve.
+🚭 Smoke-free & pet-free environment.
 
 💎 Why You'll Love It:
 Whether you're looking to complete your Limited Run Games trading card collection or searching for a standout piece to display, this card is a perfect addition to any collection. Don't miss out on this trading card because once it's gone, it's gone!
 
 🚚 Shipping & Extras:
-• 📦 FREE Shipping – Fast & Securely Packaged!
-• 📍 Local Pickup Available for Convenience!
+📦 FREE Shipping – Fast & Securely Packaged!
+📍 Local Pickup Available for Convenience!
 
-💬 Please don't hesitate to contact me with any questions or concerns about this listing!
+💬 Please don't hesitate to contact me with any questions or concerns about this listing! Don't forget to check out my other listings for more amazing collectibles and trading cards!
+
+---
 """
 
 # Read original text file content.
