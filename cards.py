@@ -54,8 +54,6 @@ Whether you're looking to complete your Limited Run Games trading card collectio
 📍 Local Pickup Available for Convenience!
 
 💬 Please don't hesitate to contact me with any questions or concerns about this listing! Don't forget to check out my other listings for more amazing collectibles and trading cards!
-
----
 """
 
 # Read original text file content.
