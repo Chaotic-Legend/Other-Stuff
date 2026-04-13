@@ -19,14 +19,14 @@ if not os.path.exists(file_path):
 
     print(f"\nA new text file has been created! Please enter your card list, save, and then close the {file_path} file.")
 
-    # Open the text file automatically based on OS.
+    # Open the text file automatically based on the OS.
     try:
         if sys.platform.startswith('win'):
-            os.startfile(file_path)  # Windows
+            os.startfile(file_path) # Windows
         elif sys.platform.startswith('darwin'):
-            subprocess.call(['open', file_path])  # macOS
+            subprocess.call(['open', file_path]) # macOS
         else:
-            subprocess.call(['xdg-open', file_path])  # Linux
+            subprocess.call(['xdg-open', file_path]) # Linux
     except Exception as e:
         print(f"\nCould not open the text file automatically. Please open the {file_path} file manually.")
 
@@ -36,7 +36,7 @@ if not os.path.exists(file_path):
 # Template string with placeholders.
 template = """🎮 Limited Run Games Series {series} {variant} Trading Card #{card_num} – {name}
 
-✨ Add a rare gem to your collection with this Limited Run Games Series {series} {variant} Trading Card #{card_num} from the {name} Collectible Card Set! A must-have for fans of {name} and dedicated Limited Run Games collectors.
+✨ Add a rare gem to your collection with this Limited Run Games Series {series} {variant} Trading Card #{card_num} from the {name} Collectible Card Set! A must-have for fans of the {name} franchise and dedicated Limited Run Games collectors.
 
 📌 Item Details:
 ✅ Authentic Limited Run Games Series {series} Trading Card.
