@@ -5,7 +5,7 @@ import platform
 import subprocess
 
 # Author: Isaac D. Hoyos
-# Date: April 2, 2026
+# Date: May 3, 2026
 def open_file(file_path):
     # Open the text file based on the user's operating system.
     try:
@@ -91,6 +91,10 @@ def format_rubric(file_path):
                 break
         else:
             i += 1
+
+    # Remove any trailing blank lines at the bottom.
+    while formatted_lines and formatted_lines[-1] == "":
+        formatted_lines.pop()
 
     # Overwrite the text file with formatted content.
     with open(file_path, 'w', encoding='utf-8') as f:
